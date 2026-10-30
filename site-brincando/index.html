@@ -73,8 +73,8 @@ section{padding:64px 0}
 
 .extras{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
 .ex{background:#fff;border-radius:20px;overflow:hidden;box-shadow:0 8px 24px rgba(30,42,74,.08);display:flex;flex-direction:column}
-.ex .im{background:var(--creme);height:190px;display:flex;align-items:center;justify-content:center;padding:12px}
-.ex .im img{max-height:166px;border-radius:8px;box-shadow:0 6px 16px rgba(0,0,0,.15)}
+.ex .im{background:var(--creme);overflow:hidden}
+.ex .im img{width:100%;height:auto;display:block}
 .ex .tx{padding:14px 16px 18px}
 .ex small{font-weight:700;font-size:11.5px;letter-spacing:1px;color:var(--laranja)}
 .ex h3{font-size:21px;margin:2px 0 4px}.ex p{font-size:13.5px;color:var(--suave)}
@@ -117,7 +117,7 @@ footer p{max-width:720px;margin:0 auto 8px}
   .sticky{display:block;position:fixed;left:0;right:0;bottom:0;padding:10px 14px calc(10px + env(safe-area-inset-bottom));background:rgba(255,255,255,.97);box-shadow:0 -4px 18px rgba(30,42,74,.12);z-index:10;transform:translateY(110%);transition:transform .25s}
   .sticky.on{transform:none}.sticky .btn{display:block;padding:14px;font-size:17px}
 }
-@media (max-width:480px){.passos,.pq,.extras{grid-template-columns:1fr}.ex .im{height:170px}}
+@media (max-width:480px){.passos,.pq,.extras{grid-template-columns:1fr}}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
 </style>
 </head>
@@ -217,10 +217,10 @@ footer p{max-width:720px;margin:0 auto 8px}
     <h2 class="reveal">Quer ainda <span class="c-vm">mais diversão?</span></h2>
     <p class="lead reveal">Na hora do pagamento você pode adicionar outros jogos com valor especial. É só marcar a caixinha. Todos opcionais!</p>
     <div class="extras reveal">
-      <div class="ex"><div class="im"><img src="img/mimica.png" alt="Carta do jogo Mímica e Desenho Bíblico"></div><div class="tx"><small>EXTRA</small><h3>Mímica e Desenho Bíblico</h3><p>38 cartas de histórias para representar ou desenhar. As crianças se mexem e dão risada!</p></div></div>
-      <div class="ex"><div class="im"><img src="img/quemsou.png" alt="Carta do jogo Quem Sou Eu"></div><div class="tx"><small>EXTRA</small><h3>Quem Sou Eu?</h3><p>27 personagens da Bíblia com 4 pistas cada. Quem adivinha primeiro ganha mais pontos.</p></div></div>
-      <div class="ex"><div class="im"><img src="img/caca.jpg" alt="Pista da Caça ao Tesouro Bíblico"></div><div class="tx"><small>EXTRA</small><h3>Caça ao Tesouro Bíblico</h3><p>2 trilhas com pistas para esconder, desafios, passaporte da equipe e certificado.</p></div></div>
-      <div class="ex"><div class="im"><img src="img/tabuleiro.jpg" alt="Tabuleiro Caminho para a Terra Prometida" style="max-height:150px"></div><div class="tx"><small>OFERTA ESPECIAL</small><h3>Tabuleiro bíblico</h3><p>"Caminho para a Terra Prometida": tabuleiro grande, peões de montar, dado e cartas Surpresa.</p></div></div>
+      <div class="ex"><div class="im"><img src="img/x-mimica.jpg" alt="Crianças brincando de Mímica e Desenho Bíblico"></div><div class="tx"><small>EXTRA</small><h3>Mímica e Desenho Bíblico</h3><p>38 cartas de histórias para representar ou desenhar. As crianças se mexem e dão risada!</p></div></div>
+      <div class="ex"><div class="im"><img src="img/x-quemsou.jpg" alt="Crianças jogando Quem Sou Eu"></div><div class="tx"><small>EXTRA</small><h3>Quem Sou Eu?</h3><p>27 personagens da Bíblia com 4 pistas cada. Quem adivinha primeiro ganha mais pontos.</p></div></div>
+      <div class="ex"><div class="im"><img src="img/x-caca.jpg" alt="Crianças na Caça ao Tesouro Bíblico"></div><div class="tx"><small>EXTRA</small><h3>Caça ao Tesouro Bíblico</h3><p>2 trilhas com pistas para esconder, desafios, passaporte da equipe e certificado.</p></div></div>
+      <div class="ex"><div class="im"><img src="img/x-tabuleiro.jpg" alt="Família jogando o tabuleiro Caminho para a Terra Prometida"></div><div class="tx"><small>OFERTA ESPECIAL</small><h3>Tabuleiro bíblico</h3><p>"Caminho para a Terra Prometida": tabuleiro grande, peões de montar, dado e cartas Surpresa.</p></div></div>
     </div>
   </div>
 </section>
