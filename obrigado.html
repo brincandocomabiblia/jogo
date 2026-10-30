@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pedido confirmado · Brincando com a Bíblia</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<!-- Meta Pixel -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init','1428031772841284');
+fbq('track','PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1428031772841284&ev=PageView&noscript=1"/></noscript>
+<!-- Fim Meta Pixel -->
+<style>
+:root{--azul:#1C5FD4;--azul2:#2F8BE6;--vermelho:#E5484D;--amarelo:#F2B705;--verde:#3DB46D;--ceu:#EAF6FF;--creme:#FFF8E6;--texto:#1E2A4A;--suave:#5B6785}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Poppins,system-ui,sans-serif;color:var(--texto);background:var(--ceu);line-height:1.55;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+h1,h2,h3{font-family:'Baloo 2',Poppins,system-ui,sans-serif;font-weight:800;line-height:1.08}
+.wrap{max-width:760px;margin:0 auto;padding:0 18px}
+.ok{background:var(--verde);color:#fff;text-align:center;padding:14px 16px;font-weight:600;font-size:15px}
+.ok b{font-size:17px}
+.etapas{display:flex;justify-content:center;gap:8px;margin:22px 0 6px;font-size:13px;font-weight:600;color:var(--suave)}
+.etapas span{background:#fff;border-radius:20px;padding:5px 12px}
+.etapas .at{background:var(--amarelo);color:var(--texto)}
+.top{text-align:center;padding:10px 0 4px}
+.top .esp{display:inline-block;background:var(--vermelho);color:#fff;font-family:'Baloo 2',Poppins,sans-serif;font-weight:800;font-size:22px;padding:2px 18px;border-radius:30px;transform:rotate(-2deg);margin-bottom:10px}
+.top h1{font-size:clamp(32px,6.5vw,52px);color:var(--azul)}
+.top h1 b{color:var(--verde)}
+.top p{font-size:17px;color:var(--suave);max-width:600px;margin:12px auto 0}
+.card{background:#fff;border-radius:26px;padding:22px;margin:22px 0;box-shadow:0 12px 34px rgba(28,95,212,.12)}
+.card .tab{border-radius:16px;overflow:hidden}
+.peoes{margin:14px auto 0;width:100%;max-width:560px}
+.lista{list-style:none;margin:18px 0 6px;font-size:15.5px}
+.lista li{padding:8px 0 8px 32px;position:relative;border-bottom:1px solid #EEF1F7}
+.lista li:before{content:"✓";position:absolute;left:6px;color:var(--verde);font-weight:800}
+.dest{background:var(--creme);border:2px dashed #F2C66B;border-radius:16px;padding:14px 16px;font-size:15px;margin-top:14px}
+.preco{text-align:center;margin:20px 0 6px}
+.preco s{color:#9AA3B8;font-size:16px}
+.preco b{display:block;font-family:'Baloo 2',Poppins,sans-serif;font-size:60px;line-height:1;color:var(--azul)}
+.preco span{font-size:14px;color:var(--suave)}
+.btnbox{margin:14px 0 4px}
+/* deixa o botão da Kiwify grande e redondo */
+[id^="kiwify-upsell-trigger"]{width:100%;font-family:Poppins,system-ui,sans-serif!important;font-weight:700!important;font-size:19px!important;padding:18px 16px!important;border-radius:60px!important;border:0!important;cursor:pointer;box-shadow:0 6px 0 #1E8A4C!important;background:#27AF60!important;color:#fff!important}
+[id^="kiwify-upsell-cancel-trigger"]{text-align:center;margin-top:14px;font-size:14px;color:var(--suave);text-decoration:underline;cursor:pointer}
+.seg{text-align:center;font-size:13px;color:var(--suave);margin-top:10px}
+.aviso{text-align:center;font-size:14px;color:var(--suave);margin:8px 0 30px}
+footer{text-align:center;font-size:12.5px;color:var(--suave);padding:10px 18px 30px}
+</style>
+</head>
+<body>
+
+<div class="ok">✅ <b>Pagamento confirmado!</b> Seu jogo já foi enviado para o seu e-mail.</div>
+
+<div class="wrap">
+  <div class="etapas"><span>1. Compra ✓</span><span class="at">2. Oferta especial</span><span>3. Acesso</span></div>
+
+  <div class="top">
+    <div class="esp">Espere!</div>
+    <h1>Leve também o <b>tabuleiro bíblico</b></h1>
+    <p>Já que você vai jogar com as crianças, que tal um jogo de tabuleiro completo para a próxima aula ou noite em família?</p>
+  </div>
+
+  <div class="card">
+    <h2 style="text-align:center;font-size:28px;margin-bottom:12px">Caminho para a <span style="color:var(--verde)">Terra Prometida</span></h2>
+    <div class="tab"><img src="img/tabuleiro.jpg" alt="Tabuleiro Caminho para a Terra Prometida"></div>
+    <img class="peoes" src="img/peoes.png" alt="Peões de Moisés, Miriã, Arão, Josué, Calebe e um menino">
+    <ul class="lista">
+      <li><b>Tabuleiro grande</b> em 4 folhas A4 (uns 58 x 41 cm) ou versão rápida em 1 folha</li>
+      <li><b>6 peões para montar</b> que ficam em pé: Moisés, Miriã, Arão, Josué, Calebe e um menino</li>
+      <li><b>Dado para montar</b> com abas de colar</li>
+      <li><b>24 cartas Surpresa</b> com histórias de Êxodo e Números</li>
+      <li>Casas especiais: Mar Vermelho, Maná, Monte Sinai, Água da rocha e mais</li>
+    </ul>
+    <div class="dest">⭐ <b>Combina com o jogo que você acabou de comprar:</b> no Modo Desafio, as cartas do Passa, Repassa ou Paga entram no tabuleiro.</div>
+
+    <div class="preco"><b>R$ 19,90</b><span>pagamento único · só nesta página</span></div>
+
+    <div class="btnbox">
+      <div id="kiwify-upsell-jjuh1QV" data-upsell-url="" data-downsell-url="" style="--kiwify-upsell-accept-bg:#27AF60;--kiwify-upsell-accept-color:#FFFFFF">
+        <button id="kiwify-upsell-trigger-jjuh1QV">SIM! QUERO O TABULEIRO POR R$ 19,90</button>
+        <div id="kiwify-upsell-cancel-trigger-jjuh1QV">Não, obrigado. Quero só o que já comprei.</div>
+      </div>
+    </div>
+    <p class="seg">🔒 Compra com 1 clique, no mesmo cartão ou Pix · Garantia de 7 dias</p>
+  </div>
+
+  <p class="aviso">Se você recusar, vai direto para o acesso do seu jogo. Nada muda na sua compra.</p>
+</div>
+
+<footer>Brincando com a Bíblia · Este site não faz parte do Facebook, Instagram ou Meta Platforms, Inc.</footer>
+
+<script src="https://snippets.kiwify.com/upsell-v2/upsell.min.js"></script>
+</body>
+</html>
